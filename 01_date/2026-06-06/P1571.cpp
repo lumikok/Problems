@@ -1,6 +1,6 @@
 // 洛谷
 // 二分，模拟，排序
-// 第一遍：?? - 无思路
+// 第一遍：错 - 无思路
 #include <bits/stdc++.h>
 using namespace std;
 int n,m;

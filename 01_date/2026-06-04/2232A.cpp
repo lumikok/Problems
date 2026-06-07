@@ -1,6 +1,6 @@
 // CF
 // 贪心 A
-// 第一次：??
+// 第一次：对
 #include <bits/stdc++.h>
 using namespace std;
 

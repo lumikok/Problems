@@ -1,6 +1,6 @@
 // 洛谷
 // DFS
-// 第一次：??
+// 第一次：错
 
 #include <bits/stdc++.h>
 using namespace std;

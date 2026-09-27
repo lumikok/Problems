@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int erfen(vector<int> &a,int x) {
+int erfen(const vector<int> &a,int x) {
     int l = 0;
     int r = a.size() - 1;
 

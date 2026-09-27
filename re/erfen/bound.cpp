@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int lowerbound(vector<int> &a,int x) {
+int lowerbound(constvector<int> &a,int x) {
 
     int l = 0;
-    int r = a.size() - 1;
-
-    if(a[r] < x) return a.size();
+    int r = static_cast<int>(a.size()) - 1;
 
     while(l <= r) {
         int mid = (r - l) / 2 + l;
@@ -19,12 +17,10 @@ int lowerbound(vector<int> &a,int x) {
     return l;
 }
 
-int upperbound(vector<int> &a,int x) {
+int upperbound(const vector<int> &a,int x) {
 
     int l = 0;
-    int r = a.size() - 1;
-
-    if(a[r] <= x) return a.size();
+    int r = static_cast<int>(a.size()) - 1;
 
     while(l <= r) {
         int mid = (r-l) / 2 + l;

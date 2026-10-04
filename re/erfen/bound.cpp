@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int lowerbound(constvector<int> &a,int x) {
+int lowerbound(const vector<int> &a,int x) {
 
     int l = 0;
     int r = static_cast<int>(a.size()) - 1;

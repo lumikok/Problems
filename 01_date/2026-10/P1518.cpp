@@ -1,5 +1,6 @@
 // 30min
 // ´¿Ä£Äâ
+
 #include <bits/stdc++.h>
 using namespace std;
 
